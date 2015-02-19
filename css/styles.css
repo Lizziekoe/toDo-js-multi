@@ -1,0 +1,19 @@
+.toDo{
+  color: yellow;
+  cursor:pointer;
+}
+
+h1  {
+  color: white;
+}
+
+.toDo:hover{
+  text-decoration: underline;
+}
+
+body {
+  background-image: url("img/background.jpg");
+  font-family: 'Slabo 27px', serif;
+  background-attachment: fixed;
+  background-position: center;
+}
