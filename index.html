@@ -16,16 +16,18 @@
       <div class="row">
 
         <div class="col-sm-5 well">
+
           <h2>Lists</h2>
-          <ul id="lists">
+          <ul id="lists" class="toDo">
 
           </ul>
           <h3>Create a List</h3>
-          <label for="listName">List Name:</label>
-          <input id="listName" class="form-control">
-          <br>
-          <span class="btn btn-primary" id="addList">Add List</span>
-          <br>
+          <form id="listForm">
+            <label for="listName">List Name:</label>
+            <input id="listName" class="form-control">
+            <br>
+            <button type="submit" id="addList">Add List</button>
+          </form>
         </div>
         <div class="col-sm-2">
 
@@ -34,6 +36,9 @@
 
           <form id="toDoForm">
             <div class="form-group">
+              <div id="listTitle">
+                <h2></h2>
+              </div>
               <label for="task">Task</label>
               <input id="task" class="form-control">
             </div>
